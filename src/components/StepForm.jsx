@@ -1,6 +1,6 @@
 import  { useState } from "react";
 
-const App = () => {
+const StepForm = () => {
   const steps = ["Create Account", "Add Information", "Review & Submit"];
   const [currentStep, setCurrentStep] = useState(0);
 
@@ -169,4 +169,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default StepForm;
